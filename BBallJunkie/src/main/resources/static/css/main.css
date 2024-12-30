@@ -1,0 +1,157 @@
+@charset "ISO-8859-1";
+
+.wl{ 
+	height:100vh;
+	background:linear-gradient(
+	to bottom,
+	white 25%,
+	orange 100%
+	);
+}
+
+.i{
+	height:100vh;
+	background:linear-gradient(
+	to bottom,
+	white 50%,
+	orange 100%
+	);
+}
+
+
+.wlcm{
+	display:flex;
+	justify-content:center;
+	font-size:50px;
+	font-style:italic;
+	background-color:light-grey;
+	
+}
+
+.lgnAndReg{
+	display:flex;
+	justify-content:space-evenly;
+}
+
+.btnn{
+	border-radius: 20px;
+}
+
+.btnn:hover{
+	cursor:pointer;
+	background-color:black;
+	color:white;
+	border-color:white;
+}
+
+.btn{
+	width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border-color:white
+    
+    
+}
+
+.btn:hover{
+	cursor:pointer;
+	background-color:black;
+	color:white;
+	border-color:white;
+}
+
+
+.f{
+	font-size:50px;
+	font-style:italic;
+}
+
+.login{
+	display:flex;
+	justify-content:center;
+	border-style:solid;
+	border-color:black;
+	margin-right:575px;
+	margin-left:575px;
+	padding-bottom:30px;
+	background-color:lightgrey;
+	box-shadow: 3px 3px 1px black;
+	border-radius:5%;
+}
+
+.register{
+	display:flex;
+	justify-content:center;
+	border-style:solid;
+	border-color:black;
+	padding-bottom:30px;
+	margin-right:565px;
+	margin-left:565px;
+	background-color:lightgrey;
+	box-shadow: 3px 3px 1px black;
+	border-radius:5%;
+}
+
+.err{
+	color:red;
+}
+
+.homeWel{
+	font-style:italic;
+	display:flex;
+	justify-content:center;
+}
+
+.taskBar{
+	display:flex;
+	justify-content:space-evenly;
+}
+
+.homeBt{
+	width: 95px;
+    height: 40px;
+    background-color:black;
+    color: orange;
+    border-radius: 20px 0 20px 0 ;
+    font-weight:bold;
+    
+}
+
+.likeBtn{
+	width:75px;
+	height:30px;
+	background-color:black;
+    color: orange;
+    border-radius: 20px 0 20px 0 ;
+    font-weight:bold;
+}
+
+.homeBt:hover,.deletebttn:hover, .likeBtn:hover, .editbttn:hover{
+	background-color:orange;
+	color:black;
+	cursor:pointer;
+	
+}
+
+
+.huhh{
+	padding-left:75px;
+}
+
+.undl{
+	text-decoration:none;
+	color:orange;
+}
+
+.addAPost,.editPost{
+	display:flex;
+	justify-content:center;
+}
+
+#post{
+	height:250px;
+	width:500px;
+	
+}
