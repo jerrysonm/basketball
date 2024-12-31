@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+
+.taskbar{
+    display: flex;
+    justify-content:space-between;
+    padding: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: orange;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
+
+.background-image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.err{
+	color:red;
+}
+
+.btnn{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: orange;
+    border-radius: 20px;
+    border-color: orange;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btnn:hover{
+    cursor: pointer;
+    background-color: orangered;
+}
+
+.welcome{
+    justify-content:center;
+    margin-top:50px;
+}
+
+.welcomeMess{
+	color: black;
+	font-size:25px;
+}
+
+.i{
+	position:relative;
+	height:100%;
+	background-image: url('/images/background.png');
+	background-size: cover;
+}
+
+.f{
+	color:white;
+}
+
+.login,.register{
+	border-style:solid;
+	border-width:7px;
+	display: flex;
+    justify-content:center;
+    margin-top:50px;
+    margin-left:475px;
+    margin-right:475px;
+    padding:75px;
+    font-size:25px;
+    background-color:orange;
+}
+
+.addPlayer,.addTeam{
+	border-style:solid;
+	border-width:5px;
+	display: flex;
+    justify-content:center;
+    margin-top:50px;
+    margin-left:475px;
+    margin-right:475px;
+    padding:75px;
+    font-size:25px;
+    border-radius: 20px;
+    background-color:lightgrey;
+     box-shadow: 5px 5px 3px orange;
+}
+
+
+
